@@ -11,7 +11,4 @@ CKEDITOR.editorConfig = function( config ) {
     config.contentsCss = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
     config.allowedContent = true;
     config.font_names = 'GoogleWebFonts';
-    config.toolbar = [
-        { name: 'insert', items: [ 'FontAwesome', 'Source' ] }
-    ];
 };
