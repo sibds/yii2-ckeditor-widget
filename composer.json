@@ -1,8 +1,9 @@
 {
-    "name": "2amigos/yii2-ckeditor-widget",
+    "name": "sibds/yii2-ckeditor-widget",
     "description": "CKEditor widget for Yii2.",
     "type": "yii2-extension",
     "keywords": [
+        "sibds",
         "2amigos",
         "yii",
         "yii2",
@@ -11,7 +12,6 @@
         "widget",
         "ckeditor"
     ],
-    "homepage": "http://yiiwheels.com/extension/ckeditor-widget",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -19,11 +19,16 @@
             "email": "hola@2amigos.us",
             "homepage": "http://2amigos.us",
             "role": "Developer"
+        },
+        {
+            "name": "SibDS Ltd.",
+            "email": "contact@sibds.com",
+            "homepage": "http://sibds.com",
+            "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/2amigos/yii2-ckeditor-widget/issues",
-        "source": "https://github.com/2amigos/yii2-ckeditor-widget"
+        "source": "https://github.com/sibds/yii2-ckeditor-widget"
     },
     "require": {
         "yiisoft/yii2": "~2.0.0"
