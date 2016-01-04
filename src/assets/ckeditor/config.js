@@ -7,8 +7,8 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
-    config.extraPlugins = 'fontawesome,autocorrect,widgetbootstrap,widgetcommon,widgettemplatemenu,ckeditor-gwf-plugin,leaflet';
+    config.extraPlugins = 'fontawesome,autocorrect,widgetbootstrap,widgetcommon,widgettemplatemenu,ckeditor-gwf-plugin,leaflet,bt_table';
     config.contentsCss = 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
     config.allowedContent = true;
-    config.font_names = config.font_names+',GoogleWebFonts';
+    config.font_names = config.font_names+';GoogleWebFonts';
 };
