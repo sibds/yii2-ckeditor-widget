@@ -31,6 +31,17 @@ This widget works with default's `dev-full/stable` branch of CKEditor, with a se
 configure a different skins or plugins that the one proposed, you will have to download them separately and configure
 the widget's `clientOptions` attribute accordingly.
 
+Plugins:
+
+* FontAwesome
+* Table
+* Bootstrap
+* Media (oEmbed) Plugin
+* Find and Replace
+* Text Transform
+* Floating Tools
+* Translate
+* Google Web Fonts
 
 Usage
 -----
@@ -59,36 +70,6 @@ use dosamigos\ckeditor\CKEditorInline;
     This text can be edited now :)
 <?php CKEditorInline::end();?>
 ```
-
-Testing
--------
-
-To test the extension, is better to clone this repository on your computer. After, go to the extensions folder and do
-the following (assuming you have `composer` installed on your computer): 
-
-```bash 
-$ composer install --no-interaction --prefer-source --dev
-```
-Once all required libraries are installed then do: 
-
-```bash 
-$ vendor/bin/phpunit
-```
-
-Further Information
--------------------
-Please, check the [CKEditor plugin site](http://www.ckeditor.com) documentation for further information about its configuration options.
-
-Contributing
-------------
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-Credits
--------
-
-- [Antonio Ramirez](https://github.com/tonydspaniard)
-- [All Contributors](../../contributors)
 
 License
 -------
