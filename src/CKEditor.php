@@ -62,6 +62,7 @@ class CKEditor extends InputWidget
             ? Json::encode($this->clientOptions)
             : '{}';
 
+        $js[] = "CKEDITOR.dtd.\$removeEmpty['span'] = false;";
         $js[] = "CKEDITOR.replace('$id', $options);";
         $js[] = "dosamigos.ckEditorWidget.registerOnChangeHandler('$id');";
 
