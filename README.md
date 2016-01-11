@@ -41,9 +41,7 @@ Plugins:
 * [Bootstrap](http://ckeditor.com/addon/widgetbootstrap)
 * [Media (oEmbed) Plugin](http://ckeditor.com/addon/oembed)
 * [Find and Replace](http://ckeditor.com/addon/find)
-* Text Transform
-* Floating Tools
-* Translate
+* [Text Transform](http://ckeditor.com/addon/texttransform)
 * [Google Web Fonts](http://ckeditor.com/addon/ckeditor-gwf-plugin)
 
 Usage
