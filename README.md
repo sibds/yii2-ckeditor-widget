@@ -33,15 +33,18 @@ the widget's `clientOptions` attribute accordingly.
 
 Plugins:
 
-* FontAwesome
-* Table
-* Bootstrap
-* Media (oEmbed) Plugin
-* Find and Replace
+* [AutoCorrect](http://ckeditor.com/addon/autocorrect)
+* [FontAwesome](http://ckeditor.com/addon/fontawesome)
+* [Save as Submit form](http://ckeditor.com/addon/save)
+* [Upload Image](http://ckeditor.com/addon/uploadimage)
+* [Table](http://ckeditor.com/addon/table)
+* [Bootstrap](http://ckeditor.com/addon/widgetbootstrap)
+* [Media (oEmbed) Plugin](http://ckeditor.com/addon/oembed)
+* [Find and Replace](http://ckeditor.com/addon/find)
 * Text Transform
 * Floating Tools
 * Translate
-* Google Web Fonts
+* [Google Web Fonts](http://ckeditor.com/addon/ckeditor-gwf-plugin)
 
 Usage
 -----

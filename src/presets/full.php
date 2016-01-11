@@ -16,6 +16,7 @@ return [
         ['name' => 'forms'],
         '/',
         ['name' => 'basicstyles', 'groups' => ['basicstyles', 'colors','cleanup']],
+        ['name' => 'texttransform'],
         ['name' => 'paragraph', 'groups' => [ 'list', 'indent', 'blocks', 'align', 'bidi' ]],
         ['name' => 'links'],
         '/',
